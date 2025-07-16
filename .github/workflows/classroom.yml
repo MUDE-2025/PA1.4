@@ -37,14 +37,20 @@ jobs:
         test-name: Check multi-file commit
         setup-command: ""
         command: |
-          # Get commits not made by github-classroom bot and check if any commit has multiple files
-          if git log --oneline --name-only | grep -B1 -A10 -v 'github-classroom\\[bot\\]' | awk '/^[a-f0-9]/ {commit=$0; files=0; next} /^$/ {if(files>1) {print "found"; exit}} {files++} END {if(files>1) print "found"}' | grep -q found; then
+          # Check all non-bot commits for any multi-file commit
+          if git log --pretty=format:'%H %an' | grep -v 'github-classroom\[bot\]' | cut -d' ' -f1 | while read commit; do
+            file_count=$(git show --name-only --pretty=format: "$commit" | grep -c '^')
+            if [ "$file_count" -gt 1 ]; then
+              echo "found"
+              exit 0
+            fi
+          done | grep -q found; then
             echo '✅ Success: Multi-file commit detected in student work'
           else
             echo '❌ Error: No multi-file commits detected from student work. Please make a commit that includes both the markdown file and your figure.'
             exit 1
           fi
-        timeout: 10
+        timeout: 15
         max-score: 10
     
     - name: Autograding Reporter
