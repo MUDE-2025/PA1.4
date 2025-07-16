@@ -36,9 +36,9 @@ jobs:
       with:
         test-name: Check multi-file commit
         setup-command: ""
-        command: "if ! git log --name-only --pretty=format: | grep -v '^$' | sort | uniq -c | awk '$1 > 1 {found=1} END {exit !found}'; then echo '❌ Error: No commits with multiple files detected. Please make a commit that includes both the markdown file and your figure.'; exit 1; else echo '✅ Success: Multi-file commit detected in git history'; fi"
+        command: "if ! git log --author='!github-classroom[bot]' --name-only --pretty=format: | grep -v '^$' | sort | uniq -c | awk '$1 > 1 {found=1} END {exit !found}'; then echo '❌ Error: No multi-file commits detected from student work. Please make a commit that includes both the markdown file and your figure.'; exit 1; else echo '✅ Success: Multi-file commit detected in student work'; fi"
         timeout: 10
-        max-score: 5
+        max-score: 10
     
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
