@@ -1,0 +1,49 @@
+name: Autograding Tests
+on:
+  push:
+    branches:
+      - assignment
+      - solution
+  repository_dispatch:
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event.pull_request.head.sha }} #https://stackoverflow.com/questions/62334460/git-history-in-a-github-action
+        fetch-depth: 0
+    
+    - name: Check placeholder line removed
+      id: check-placeholder-removed
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Check placeholder line removed
+        setup-command: ""
+        command: "if grep -q '% REPLACE THIS LINE WITH YOUR MARKDOWN CONTENT' 4_commit_online.md; then echo '❌ Error: The placeholder line \"% REPLACE THIS LINE WITH YOUR MARKDOWN CONTENT\" was not removed from 4_commit_online.md. Please replace this line with your own markdown content.'; exit 1; else echo '✅ Success: The placeholder line has been properly removed from 4_commit_online.md'; fi"
+        timeout: 10
+        max-score: 10 
+    
+    - name: Check multi-file commit
+      id: check-multi-file-commit
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Check multi-file commit
+        setup-command: ""
+        command: "if ! git log --name-only --pretty=format: | grep -v '^$' | sort | uniq -c | awk '$1 > 1 {found=1} END {exit !found}'; then echo '❌ Error: No commits with multiple files detected. Please make a commit that includes both the markdown file and your figure.'; exit 1; else echo '✅ Success: Multi-file commit detected in git history'; fi"
+        timeout: 10
+        max-score: 5
+    
+    - name: Autograding Reporter
+      uses: classroom-resources/autograding-grading-reporter@v1
+      env:
+        CHECK-PLACEHOLDER-REMOVED_RESULTS: "${{steps.check-placeholder-removed.outputs.result}}"
+        CHECK-MULTI-FILE-COMMIT_RESULTS: "${{steps.check-multi-file-commit.outputs.result}}"
+      with:
+        runners: check-placeholder-removed, check-multi-file-commit
