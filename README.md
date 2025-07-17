@@ -1,4 +1,4 @@
-# Programming assignment 1.2 Version control with Git
+# Programming assignment 1.4 Version control with Git
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
@@ -16,14 +16,14 @@ In this assignment you'll make exercises on:
 3. [Make commit on GitHub online](./4_commit_online.md)
 4. [Fetch and pull from the remote repository](./5_fetch_pull.md)
 5. [Install git](./2_install_git.md)
-
-5. file_import
+6. file_import ...
 
 You'll need to have done this to be able to make the workshop and group assignment.
 
 You pass this PA if you:
 - You replaced the markdown line in exercise 2
 - You edited multiple files in a single commit in exercise 3
+- ...
 
 For the fundamental programming concepts there are two exercises:
 

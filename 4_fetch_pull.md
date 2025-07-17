@@ -1,4 +1,4 @@
-# Make commit online
+# Fetch and pull
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
