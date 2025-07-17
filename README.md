@@ -12,17 +12,18 @@ Before you can start this assignment, read the theory pages in the book: https:/
 
 In this assignment you'll make exercises on:
 1. [Install GitHub Desktop](./1_install_github_desktop.md)
-2. [Install git](./2_install_git.md)
-3. [Make commit locally](./3_commit_local.md)
-4. [Make commit on GitHub online](./4_commit_online.md)
-5. [Fetch and pull from the remote repository](./5_fetch_pull.md)
+2. [Make commit locally](./3_commit_local.md)
+3. [Make commit on GitHub online](./4_commit_online.md)
+4. [Fetch and pull from the remote repository](./5_fetch_pull.md)
+5. [Install git](./2_install_git.md)
+
 5. file_import
 
 You'll need to have done this to be able to make the workshop and group assignment.
 
 You pass this PA if you:
-- You replaced the markdown line in exercise 3
-- You edited multiple files in a single commit in exercise 4
+- You replaced the markdown line in exercise 2
+- You edited multiple files in a single commit in exercise 3
 
 For the fundamental programming concepts there are two exercises:
 

@@ -6,7 +6,7 @@
 
 In this exercise you'll work on making changes to a git repository locally and pushing those to GitHub.
 
-## Task 3.1 Clone from GitHub
+## Task 2.1 Clone from GitHub
 
 Locate your own personal repository generated from the GitHub Classroom link and click on the green `Code` - `Open with GitHub Desktop`:
 
@@ -39,22 +39,22 @@ At this point you can create the local repository by clicking "Clone," which wil
 
 ![Successfull clone](https://files.mude.citg.tudelft.nl/successfull_clone.png)
 
-## Task 3.2 Edit files
+## Task 2.2 Edit files
 
 Now let's make an edit locally. The benefit from working locally is that you can use other software and that you can edit multiple files together in a single commit. To do so, let's add a figure to this repo and include it in this file
 
 % ADD YOUR FIGURE HERE
 ![]()
 
-## Task 3.3 Commit your changes
+## Task 2.3 Commit your changes
 
 Now let's commit your changes (of multiple files). In GitHub Desktop you should see the addition of a figure and your changes to this file. Make sure you select both of these changes and commit those changes by clicking the blue 'Commit 2 files to main'.
 
-## Task 3.4 Push your changes
+## Task 2.4 Push your changes
 
 Now that we have recorded our commits with git, there is one last thing to do: update the remote repository. We can do this by pushing the commit, using the blue 'Push origin' in the middle of the screen or 'Push origin' in the bar on the top.
 
-## Task 3.5 Check your online repository
+## Task 2.5 Check your online repository
 
 Check your repository on GitHub to check whether your changes made it there!
 

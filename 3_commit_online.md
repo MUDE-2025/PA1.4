@@ -6,13 +6,13 @@
 
 This page will show you how to make commits to the remote repository on GitHub directly from the web browser. If you only have small changes to make to a small number of files, this can be faster than doing it with your local repository.
 
-## Task 4.1 Edit this file
+## Task 3.1 Edit this file
 
 To edit this file via the web browser you need to locate it on GitHub on your personal repository you created via the GitHub classroom link. First click on the file in the GitHub repository, then the pencil icon. Replace the comment below with your own content
 
 % REPLACE THIS LINE WITH YOUR MARKDOWN CONTENT
 
-## Task 4.2 Commit your change
+## Task 3.2 Commit your change
 
 At this point we are ready to make our first commit. Click on the green button 'Commit changes' which ask you for a commit message. The commit message can be useful for reviewing changes, however, especially when working with multiple people. It is important to write concise (limit it to 50 characters max), yet descriptive commit messages. It could be useful to write your commit message such that it completes the following sentence: _This commit will..._.
 
