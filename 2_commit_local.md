@@ -41,7 +41,7 @@ At this point you can create the local repository by clicking "Clone," which wil
 
 ## Task 2.2 Edit files
 
-Now let's make an edit locally. The benefit from working locally is that you can use other software and that you can edit multiple files together in a single commit. To do so, let's add a figure to this repo and include it in this file
+Now let's make an edit locally. The benefit from working locally is that you can use other software and that you can edit multiple files together in a single commit. To do so, let's add a figure to this repo and include it in this file. Preferably add a non-binary image like an svg, as git and binary files are not friends.
 
 % ADD YOUR FIGURE HERE
 ![]()
