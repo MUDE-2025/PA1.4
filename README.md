@@ -12,10 +12,10 @@ Before you can start this assignment, read the theory pages in the book: https:/
 
 In this assignment you'll make exercises on:
 1. [Install GitHub Desktop](./1_install_github_desktop.md)
-2. [Make commit locally](./3_commit_local.md)
-3. [Make commit on GitHub online](./4_commit_online.md)
-4. [Fetch and pull from the remote repository](./5_fetch_pull.md)
-5. [Install git](./2_install_git.md)
+2. [Make commit locally](./2_commit_local.md)
+3. [Make commit on GitHub online](./3_commit_online.md)
+4. [Fetch and pull from the remote repository](./4_fetch_pull.md)
+5. [Install git](./5_install_git.md)
 6. file_import ...
 
 You'll need to have done this to be able to make the workshop and group assignment.
