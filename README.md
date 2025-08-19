@@ -16,14 +16,15 @@ In this assignment you'll make exercises on:
 3. [Make commit on GitHub online](./3_commit_online.md)
 4. [Fetch and pull from the remote repository](./4_fetch_pull.md)
 5. [Install git](./5_install_git.md)
-6. file_import ...
+6. [Data cleaning](./6_data_cleaning.ipynb)
+7. [Data import](./7_data_import.ipynb)
 
 You'll need to have done this to be able to make the workshop and group assignment.
 
 You pass this PA if you:
 - replaced the markdown line in exercise 2
 - edited multiple files in a single commit in exercise 3
-- ...
+- Cleaned the data properly in exercise 6
 
 For the fundamental programming concepts there are two exercises:
 
