@@ -19,7 +19,16 @@ jobs:
       with:
         ref: ${{ github.event.pull_request.head.sha }} #https://stackoverflow.com/questions/62334460/git-history-in-a-github-action
         fetch-depth: 0
-    
+    - name: Set Jupyter platformdirs environment variable #to remove warning DeprecationWarning: Jupyter is migrating its paths to use standard platformdirs given by the platformdirs library
+      run: echo "JUPYTER_PLATFORM_DIRS=1" >> $GITHUB_ENV
+    - name: Test notebook
+      id: test-notebook
+      uses: classroom-resources/autograding-python-grader@v1
+      with:
+        timeout: 10
+        max-score: 10
+        setup-command: pip install numpy scipy pandas matplotlib jupyter ipykernel
+          pytest testbook
     - name: Check placeholder line removed
       id: check-placeholder-removed
       uses: classroom-resources/autograding-command-grader@v1
@@ -64,5 +73,6 @@ jobs:
       env:
         CHECK-PLACEHOLDER-REMOVED_RESULTS: "${{steps.check-placeholder-removed.outputs.result}}"
         CHECK-MULTI-FILE-COMMIT_RESULTS: "${{steps.check-multi-file-commit.outputs.result}}"
+        TEST-NOTEBOOK_RESULTS: "${{steps.test-notebook.outputs.result}}"
       with:
-        runners: check-placeholder-removed, check-multi-file-commit
+        runners: check-placeholder-removed, check-multi-file-commit, test-notebook
