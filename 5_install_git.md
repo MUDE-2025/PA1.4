@@ -1,9 +1,5 @@
 # Install git
 
-*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
-
-*Written by: Tom van Woudenberg*
-
 Although GitHub Desktop allows you to do most git tasks, for some stuff you require a CLI.
 
 ## Task 5.1 Download and install Git
@@ -46,4 +42,4 @@ Open your command prompt / terminal to verify Git and type `git version` to veri
 
 > This exercise uses content from https://github.com/git-guides/install-git, and from https://teachbooks.io/learn-programming/install/git/intro.html by Delft University of Technology licensed with CC BY 4.0 License
 
-> Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
+> By Tom van Woudenberg, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).

@@ -1,9 +1,5 @@
 # Fetch and pull
 
-*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
-
-*Written by: Tom van Woudenberg and Robert Lanzafame*
-
 You've now made changes to your repository both locally and remote. However, the remote changes are not yet on your computer. Let's fetch and pull them!
 
 ## Task 4.1 Fetch and pull
@@ -17,3 +13,5 @@ Open [the file `3_commit_local.md`](./3_commit_local.md) to check whether the ch
 > This exercise uses content from https://teachbooks.io/learn-programming/workflows/git/github_desktop/fetch_pull.html by Delft University of Technology, licensed with CC BY 4.0 License
 
 > Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
+
+> By Tom van Woudenberg and Robert Lanzafame, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).

@@ -1,9 +1,5 @@
 # Make commit locally
 
-*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
-
-*Written by: Tom van Woudenberg and Robert Lanzafame*
-
 In this exercise you'll work on making changes to a git repository locally and pushing those to GitHub.
 
 ## Task 2.1 Clone from GitHub
@@ -60,4 +56,4 @@ Check your repository on GitHub to check whether your changes made it there!
 
 > This exercise uses content from https://teachbooks.io/learn-programming/workflows/git/github_desktop/commits_remote.html by Delft University of Technology, licensed with CC BY 4.0 License
 
-> Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
+> By Tom van Woudenberg and Robert Lanzafame, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).

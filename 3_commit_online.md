@@ -1,9 +1,5 @@
 # Make commit online
 
-*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
-
-*Written by: Tom van Woudenberg and Robert Lanzafame*
-
 This page will show you how to make commits to the remote repository on GitHub directly from the web browser. If you only have small changes to make to a small number of files, this can be faster than doing it with your local repository.
 
 ## Task 3.1 Edit this file
@@ -20,4 +16,4 @@ Once you have made the commit, you should she the rendered version of this page 
 
 > This exercise uses content from https://teachbooks.io/learn-programming/workflows/git/github_desktop/commits_remote.html by Delft University of Technology, licensed with CC BY 4.0 License
 
-> Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
+> By Tom van Woudenberg and Robert Lanzafame, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
