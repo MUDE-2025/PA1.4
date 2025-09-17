@@ -18,8 +18,8 @@ In this assignment you'll make exercises on:
 You'll need to have done this to be able to make the workshop and group assignment.
 
 You pass this PA if you:
-- replaced the markdown line in exercise 2
-- edited multiple files in a single commit in exercise 3
+- edited multiple files in a single commit in exercise 2
+- replaced the markdown line in exercise 3
 - Cleaned the data properly in exercise 6
 
 For the fundamental programming concepts there are two exercises:
