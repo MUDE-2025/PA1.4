@@ -8,7 +8,7 @@ In GitHub Desktop, click 'Fetch origin' in the taskbar (where you previously cli
 
 ## Task 4.2 Check changes
 
-Open [the file `3_commit_local.md`](./3_commit_local.md) to check whether the changes have come through.
+Open [the file `3_commit_online.md`](./3_commit_online.md) to check whether the changes have come through.
 
 > This exercise uses content from https://teachbooks.io/learn-programming/workflows/git/github_desktop/fetch_pull.html by Delft University of Technology, licensed with CC BY 4.0 License
 

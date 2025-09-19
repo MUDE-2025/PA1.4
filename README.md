@@ -1,4 +1,4 @@
-# Programming assignment 1.4 Version control with Git
+# Programming assignment 1.4 Commit to clean data
 
 *Due: `<day of week>`, `<month>` `<day>`, `<year>`.*
 
@@ -22,10 +22,8 @@ You pass this PA if you:
 - replaced the markdown line in exercise 3
 - Cleaned the data properly in exercise 6
 
-For the fundamental programming concepts there are two exercises:
+For the fundamental programming concepts you'll work on [functions and matplotlib](./8_programming_fundamental_concepts.ipynb)
 
-...
+These exercises on fundamental programming concepts are not obligatory. If you struggle with one of the topics from the programming fundamentals, you're strongly advised to go through the linked reference materials by yourself ([functions](https://oit.tudelft.nl/learn-python/2025/basics/functions.html) and [matplotlib](https://oit.tudelft.nl/learn-python/2025/matplotlib/intro.html)). During the programming tutorial on Tuesday these steps will be demonstrated too.
 
-These exercises on fundamental programming concepts are not obligatory. If you struggle with one of the topics from the programming fundamentals, you're strongly advised to go through the linked reference materials by yourself. During the programming tutorial on Tuesday these steps will be demonstrated too.
-
-> By Tom van Woudenberg, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
+> By Tom van Woudenberg, Robert Lanzafame and Berend Bouvy, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
