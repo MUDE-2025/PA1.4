@@ -4,7 +4,7 @@
 
 You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.4/README.html. You can obtain your personal repository for submission on: TBD
 
-Before you can start this assignment, read the theory pages in the book: https://mude.citg.tudelft.nl/book/2025/programming/week_1_4.html
+Before you can start this assignment, read the theory pages in the book: https://mude.citg.tudelft.nl/book/2025/programming/week_1_4.html ([Version control](https://mude.citg.tudelft.nl/book/2025/_git/github.com_TeachBooks_learn-programming/mude-2025/book/version_control/version_control.html) and [Jupyter Notebooks and git](https://mude.citg.tudelft.nl/book/2025/_git/github.com_TeachBooks_learn-programming/mude-2025/book/version_control/notebooks.html))
 
 In this assignment you'll make exercises on:
 1. [Install GitHub Desktop](./1_install_github_desktop.md)
