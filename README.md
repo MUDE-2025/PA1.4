@@ -1,6 +1,6 @@
 # Programming assignment 1.4 Commit to clean data
 
-You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.4/README.html. You can obtain your personal repository for submission on: https://classroom.github.com/a/BfzvPQKp
+You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.4/README.html. After the deadline, this link will include solutions. The preview of the assignment version is shared here: https://mude.citg.tudelft.nl/workbook-2025/no_solutions/assignments/PA1.4/README.html. You can obtain your personal repository for submission on: https://classroom.github.com/a/BfzvPQKp
 
 Before you can start this assignment, read the theory pages in the book: https://mude.citg.tudelft.nl/book/2025/programming/week_1_4.html ([Version control](https://mude.citg.tudelft.nl/book/2025/_git/github.com_TeachBooks_learn-programming/mude-2025/book/version_control/version_control.html) and [Jupyter Notebooks and git](https://mude.citg.tudelft.nl/book/2025/_git/github.com_TeachBooks_learn-programming/mude-2025/book/version_control/notebooks.html))
 
