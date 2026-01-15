@@ -6,11 +6,11 @@ In this exercise you'll work on making changes to a git repository locally and p
 
 Locate your own personal repository generated from the GitHub Classroom link and click on the green `Code` - `Open with GitHub Desktop`:
 
-![Open with GitHub Desktop](https://files.mude.citg.tudelft.nl/open_with_github_desktop.png)
+![Open with GitHub Desktop](https://github.com/TUDelft-MUDE/source-files/raw/main/file/open_with_github_desktop.png)
 
 This will open a window in GitHub desktop. Select the location where you would like the _local repository_ to be located, the "Local path." 
 
-![Set location of clone](https://files.mude.citg.tudelft.nl/clone_locate.png)
+![Set location of clone](https://github.com/TUDelft-MUDE/source-files/raw/main/file/clone_locate.png)
 
 We strongly encourage you follow these pieces of advice:
 1. **Do not** store your local repositories in a location that is backed up using cloud software (e.g., OneDrive, Dropbox, etc). This often interferes with the functioning of git. Instead, we will push to the _remote repositories_ to backup our work.
@@ -33,7 +33,7 @@ We strongly encourage you follow these pieces of advice:
 
 At this point you can create the local repository by clicking "Clone," which will start the process of downloading the files from GitLab to your computer at the location you chose for local path. If you were successful in cloning the repository, you will see something similar to the figure below.
 
-![Successfull clone](https://files.mude.citg.tudelft.nl/successfull_clone.png)
+![Successfull clone](https://github.com/TUDelft-MUDE/source-files/raw/main/file/successfull_clone.png)
 
 ## Task 2.2 Edit files
 
